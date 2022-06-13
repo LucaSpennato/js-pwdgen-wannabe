@@ -23,7 +23,6 @@ userAge = parseInt (userAge);
 
 // calcolatore dell'anno di nascita
 let userBirthYear = currentYear - userAge;
-userBirthYear = parseInt (userBirthYear);
 
 // creiamo una sorta di numero supersicuro combinando userBirthYear, userAge e userFavoriteNumber perchè si
 let numberOtronic = ((currentYear - userBirthYear) + (userAge - userFavoriteNumber));
