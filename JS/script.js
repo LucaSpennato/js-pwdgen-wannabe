@@ -5,17 +5,16 @@ const userSurname = prompt (`Inserisci il tuo cognome`)
 
 const userColor = prompt (`inserisci il tuo colore preferito`);
 
-
-// numbers for more saefty
-let variablePasswordNumbersGenerator = (22);
-console.log (variablePasswordNumbersGenerator);
+// const non funziona perchè non è modificabile in alcun modo!
+let userFavoriteNumber = prompt (`Inserisci un numero`);
+userFavoriteNumber = parseInt(userFavoriteNumber);
 
 // let 4 fun
-let userSuperSafePassword = userName + userSurname + userColor + variablePasswordNumbersGenerator;
-
+let userSuperSafePassword = userName + userSurname + userColor + userFavoriteNumber;
 
 // verifichiamo in console
 console.log (userName);
 console.log (userSurname);
 console.log (userColor);
+console.log (userFavoriteNumber);
 console.log (userSuperSafePassword);
