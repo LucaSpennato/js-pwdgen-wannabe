@@ -18,3 +18,6 @@ console.log (userSurname);
 console.log (userColor);
 console.log (userFavoriteNumber);
 console.log (userSuperSafePassword);
+
+// mostriamo all'utente la password creata
+document.getElementById(`safest-pwd-ever`).innerHTML = userSuperSafePassword;
